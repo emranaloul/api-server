@@ -18,6 +18,14 @@ describe('api server', () => {
   afterAll(() => {// we need to close the connection after tests
     mongoose.connection.close();
   });
+  it('404 on a bad route', async () => {
+    let res = await request.get('/random');
+    expect(res.status).toEqual(404);
+  });
+  it('404 on a bad method', async ()=> {
+    let res = await request.patch('/api/v1/food');
+    expect(res.status).toEqual(404);
+  });
 
   it('should create a new food using post request', async () => {
     //arrange
