@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/emranaloul/api-server#readme",
   "dependencies": {
+    "@code-fellows/supergoose": "^1.1.0",
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
