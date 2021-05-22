@@ -218,4 +218,8 @@ npm test
 <br><br>
 
 ## UML Diagram
-![api-server-diagram](api-server-diagram.PNG)
+
+![api-server-diagram](https://h.top4top.io/p_19683jaet1.png)
+
+
+
