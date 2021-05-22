@@ -20,7 +20,8 @@ app.use(errorHandler);
 
 /**
  * start
- * @param port
+ * @param {number}
+ * @returns consoling log 'litening on PORT'
  */
 function start( port ){
   app.listen( port, ()=>{
@@ -32,3 +33,4 @@ module.exports ={
   app: app,
   start: start,
 };
+
