@@ -1,14 +1,5 @@
 # api-server
 
-[demployment](https://emran-basic-api-server.herokuapp.com/)
-
-[Pull Request](https://github.com/emranaloul/basic-api-server/pull/1)
-
-[Actions](https://github.com/emranaloul/basic-api-server/actions)
-
-[Repo](https://github.com/emranaloul/basic-api-server)
-
-
 ## About 
 A REST Express API, has various endpoints that perform CRUD operations on a Mongo Database, using the REST standards . 
 It has 2 data models and 2 routers : clothes and food . 
@@ -30,9 +21,9 @@ Emran Aloul
 1. `(.env)` file 
 
 ```
-PORT = 4000
-MONGOOSE_URI = mongodb://localhost:27017/things
-MONGOOSE_TEST_URI = mongodb://localhost:27017/test
+PORT=3000
+MONGOOSE_URI = mongodb+srv://emran:Ltuc@1234@cluster0.32b6w.mongodb.net/stuff
+MONGOOSE_TEST_URI=mongodb+srv://emran:Ltuc@1234@cluster0.32b6w.mongodb.net/test
 
 ```
 2. Install the following dependencies
@@ -227,6 +218,8 @@ npm test
 <br><br>
 
 ## UML Diagram
+
 ![api-server-diagram](https://h.top4top.io/p_19683jaet1.png)
+
 
 
